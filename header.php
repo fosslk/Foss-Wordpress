@@ -93,7 +93,7 @@
 			</nav>
 			
 		
-		
+			<?php echo $redux_demo['opt-multitext']['multi_text']; ?>
 
 		</header> <!-- end header -->
 		

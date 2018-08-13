@@ -358,7 +358,7 @@
     ) );
 
     Redux::setSection( $opt_name, array(
-        'title'      => __( 'Footer', 'redux-framework-demo' ),
+        'title'      => __( 'FOSS Members', 'redux-framework-demo' ),
         'id'         => 'basic-Multi Text',
         'desc'       => __( 'For full documentation on this field, visit: ', 'redux-framework-demo' ) . '<a href="//docs.reduxframework.com/core/fields/multi-text/" target="_blank">docs.reduxframework.com/core/fields/multi-text/</a>',
         'subsection' => true,
@@ -366,31 +366,12 @@
             array(
                 'id'       => 'opt-multitext',
                 'type'     => 'multi_text',
-                'title'    => __( 'Multi Text Option', 'redux-framework-demo' ),
+                'title'    => __( 'FOSS Team Members', 'redux-framework-demo' ),
                 'subtitle' => __( 'Field subtitle', 'redux-framework-demo' ),
                 'desc'     => __( 'Field Decription', 'redux-framework-demo' ),
             ),
         )
-    ) );
-    Redux::setSection( $opt_name, array(
-        'title'      => __( 'Password', 'redux-framework-demo' ),
-        'id'         => 'basic-Password',
-        'desc'       => __( 'For full documentation on this field, visit: ', 'redux-framework-demo' ) . '<a href="//docs.reduxframework.com/core/fields/password/" target="_blank">docs.reduxframework.com/core/fields/password/</a>',
-        'subsection' => true,
-        'fields'     => array(
-            array(
-                'id'       => 'password',
-                'type'     => 'password',
-                'username' => true,
-                'title'    => 'Password Field',
-                //'placeholder' => array(
-                //    'username' => 'Username',
-                //    'password' => 'Password',
-                //)
-            )
-        )
-    ) );
-
+    ) );   
     Redux::setSection( $opt_name, array(
         'title'      => __( 'Textarea', 'redux-framework-demo' ),
         'id'         => 'basic-Textarea',
