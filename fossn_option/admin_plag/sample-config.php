@@ -371,7 +371,9 @@
                 'desc'     => __( 'Field Decription', 'redux-framework-demo' ),
             ),
         )
-    ) );   
+    ) );
+    
+    
     Redux::setSection( $opt_name, array(
         'title'      => __( 'Textarea', 'redux-framework-demo' ),
         'id'         => 'basic-Textarea',

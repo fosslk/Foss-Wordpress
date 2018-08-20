@@ -92,8 +92,9 @@
 			
 			</nav>
 			
-		
-			<?php echo $redux_demo['opt-multitext']['multi_text']; ?>
+		<!--Example Here-->
+			<?php echo 'First Text Entry: ' . $redux_demo['opt-multitext'][0]; ?>
+			<h2>sdfs</h2>
 
 		</header> <!-- end header -->
 		
